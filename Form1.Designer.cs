@@ -87,6 +87,7 @@
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Form1";
             Text = "GTASALauncher";
             Load += Form1_Load;
